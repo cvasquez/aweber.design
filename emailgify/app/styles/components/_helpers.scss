@@ -1,0 +1,166 @@
+/*doc
+---
+title: Helpers
+name: Helpers
+category: Helpers
+---
+
+We have a number of helpful classes available to
+*/
+
+// Padding and Margin Sizes
+  $font-size-base:              18px !default;
+  $pm-s:                        $font-size-base * .3 !default;
+  $pm-sm:                       $font-size-base * .5 !default;
+  $pm-m:                        $font-size-base !default;
+  $pm-ml:                       $font-size-base * 1.5 !default;
+  $pm-l:                        $font-size-base * 2 !default;
+  $pm-xl:                       $font-size-base * 3 !default;
+  $pm-xxl:                      $font-size-base * 5 !default;
+
+/*=== Padding and Margin ===*/
+  // Padding
+    // No Padding
+    .pt0 { padding-top: 0px; }
+    .pb0 { padding-bottom: 0px; }
+    .pl0 { padding-left: 0px; }
+    .pr0 { padding-right: 0px; }
+    .pv0 { @extend .pt0; @extend .pb0; }
+    .ph0 { @extend .pl0; @extend .pr0; }
+    .pa0 { @extend .pv0; @extend .ph0; }
+
+    // Small Padding
+    .pts { padding-top: $pm-s; }
+    .pbs { padding-bottom: $pm-s; }
+    .pls { padding-left: $pm-s; }
+    .prs { padding-right: $pm-s; }
+    .pvs { @extend .pts; @extend .pbs; }
+    .phs { @extend .pls; @extend .prs; }
+    .pas { @extend .pvs; @extend .phs; }
+
+    // Medium-small Padding
+    .ptsm { padding-top: $pm-sm; }
+    .pbsm { padding-bottom: $pm-sm; }
+    .plsm { padding-left: $pm-sm; }
+    .prsm { padding-right: $pm-sm; }
+    .pvsm { @extend .ptsm; @extend .pbsm; }
+    .phsm { @extend .plsm; @extend .prsm; }
+    .pasm { @extend .pvsm; @extend .phsm; }
+
+    // Medium Padding
+    .ptm { padding-top: $pm-m; }
+    .pbm { padding-bottom: $pm-m; }
+    .plm { padding-left: $pm-m; }
+    .prm { padding-right: $pm-m; }
+    .pvm { @extend .ptm; @extend .pbm; }
+    .phm { @extend .plm; @extend .prm; }
+    .pam { @extend .pvm; @extend .phm; }
+
+    // Medium-large Padding
+    .ptml { padding-top: $pm-ml; }
+    .pbml { padding-bottom: $pm-ml; }
+    .plml { padding-left: $pm-ml; }
+    .prml { padding-right: $pm-ml; }
+    .pvml { @extend .ptml; @extend .pbml; }
+    .phml { @extend .plml; @extend .prml; }
+    .paml { @extend .pvml; @extend .phml; }
+
+    // Large Padding
+    .ptl { padding-top: $pm-l; }
+    .pbl { padding-bottom: $pm-l; }
+    .pll { padding-left: $pm-l; }
+    .prl { padding-right: $pm-l; }
+    .pvl { @extend .ptl; @extend .pbl; }
+    .phl { @extend .pll; @extend .prl; }
+    .pal { @extend .pvl; @extend .phl; }
+
+    // Extra Large Padding
+    .ptxl { padding-top: $pm-xl; }
+    .pbxl { padding-bottom: $pm-xl; }
+    .plxl { padding-left: $pm-xl; }
+    .prxl { padding-right: $pm-xl; }
+    .pvxl { @extend .ptxl; @extend .pbxl; }
+    .phxl { @extend .plxl; @extend .prxl; }
+    .paxl { @extend .pvxl; @extend .phxl; }
+
+    // Extra Extra Large Padding
+    .ptxxl { padding-top: $pm-xxl; }
+    .pbxxl { padding-bottom: $pm-xxl; }
+    .plxxl { padding-left: $pm-xxl; }
+    .prxxl { padding-right: $pm-xxl; }
+    .pvxxl { @extend .ptxxl; @extend .pbxxl; }
+    .phxxl { @extend .plxxl; @extend .prxxl; }
+    .paxxl { @extend .pvxxl; @extend .phxxl; }
+
+  // Margins
+    // No Margin
+    .mt0 { margin-top: 0px; }
+    .mb0 { margin-bottom: 0px; }
+    .ml0 { margin-left: 0px; }
+    .mr0 { margin-right: 0px; }
+    .mv0 { @extend .mt0; @extend .mb0; }
+    .mh0 { @extend .ml0; @extend .mr0; }
+    .ma0 { @extend .mv0; @extend .mh0; }
+
+    // Small Margin
+    .mts { margin-top: $pm-s; }
+    .mbs { margin-bottom: $pm-s; }
+    .mls { margin-left: $pm-s; }
+    .mrs { margin-right: $pm-s; }
+    .mvs { @extend .mts; @extend .mbs; }
+    .mhs { @extend .mls; @extend .mrs; }
+    .mas { @extend .mvs; @extend .mhs; }
+
+    // Medium-small Margin
+    .mtsm { margin-top: $pm-sm; }
+    .mbsm { margin-bottom: $pm-sm; }
+    .mlsm { margin-left: $pm-sm; }
+    .mrsm { margin-right: $pm-sm; }
+    .mvsm { @extend .mtsm; @extend .mbsm; }
+    .mhsm { @extend .mlsm; @extend .mrsm; }
+    .masm { @extend .mvsm; @extend .mhsm; }
+
+    // Medium Margin
+    .mtm { margin-top: $pm-m; }
+    .mbm { margin-bottom: $pm-m; }
+    .mlm { margin-left: $pm-m; }
+    .mrm { margin-right: $pm-m; }
+    .mvm { @extend .mtm; @extend .mbm; }
+    .mhm { @extend .mlm; @extend .mrm; }
+    .mam { @extend .mvm; @extend .mhm; }
+
+    // Medium-large Margin
+    .mtml { margin-top: $pm-ml; }
+    .mbml { margin-bottom: $pm-ml; }
+    .mlml { margin-left: $pm-ml; }
+    .mrml { margin-right: $pm-ml; }
+    .mvml { @extend .mtml; @extend .mbml; }
+    .mhml { @extend .mlml; @extend .mrml; }
+    .maml { @extend .mvml; @extend .mhml; }
+
+    // Large Margin
+    .mtl { margin-top: $pm-l; }
+    .mbl { margin-bottom: $pm-l; }
+    .mll { margin-left: $pm-l; }
+    .mrl { margin-right: $pm-l; }
+    .mvl { @extend .mtl; @extend .mbl; }
+    .mhl { @extend .mll; @extend .mrl; }
+    .mal { @extend .mvl; @extend .mhl; }
+
+    // Extra Large Margin
+    .mtxl { margin-top: $pm-xl; }
+    .mbxl { margin-bottom: $pm-xl; }
+    .mlxl { margin-left: $pm-xl; }
+    .mrxl { margin-right: $pm-xl; }
+    .mvxl { @extend .mtxl; @extend .mbxl; }
+    .mhxl { @extend .mlxl; @extend .mrxl; }
+    .maxl { @extend .mvxl; @extend .mhxl; }
+
+    // Extra Extra Large Margin
+    .mtxxl { margin-top: $pm-xxl; }
+    .mbxxl { margin-bottom: $pm-xxl; }
+    .mlxxl { margin-left: $pm-xxl; }
+    .mrxxl { margin-right: $pm-xxl; }
+    .mvxxl { @extend .mtxxl; @extend .mbxxl; }
+    .mhxxl { @extend .mlxxl; @extend .mrxxl; }
+    .maxxl { @extend .mvxxl; @extend .mhxxl; }

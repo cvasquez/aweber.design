@@ -1,0 +1,56 @@
+// Colors
+$blue:            #0079C1;
+$blueLight:       #8DDBF9;
+$green:           #42DD80;
+$orange:          #FF623D;
+$red:             #ED1313;
+$slate:           #505E67;
+$yellow:          #FFB500;
+
+
+@mixin coloredBG($color) {
+  background: $color;
+}
+
+.color-dot {
+  background: green;
+  height: 10px;
+  width: 10px;
+  display: inline-block;
+  border-radius: 5px;
+  margin-right: 4px;
+}
+
+//Background Color Classes
+  .bg-black { @include coloredBG(black); }
+  .bg-blue { @include coloredBG($blue); }
+  .bg-blueLight { @include coloredBG($blueLight); }
+  .bg-green { @include coloredBG($green); }
+  .bg-orange { @include coloredBG($orange); }
+  .bg-red { @include coloredBG($red); }
+  .bg-slate { @include coloredBG($slate); }
+  .bg-yellow { @include coloredBG($yellow); }
+
+// Swatch Classes for Drag and drop
+  .swatch {
+    height: 50px;
+    width: 50px;
+    border-radius: 120px;
+    margin-right:10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    cursor: pointer;
+    transition: width .5s;
+    position: relative;
+    &:last-child {
+      margin-right: 0px;
+    }
+    &.selectedBlock {
+      height: 60px;
+      width: 60px;
+      top: 5px;
+      box-shadow: rgba(0,0,0,0.2) 0px 1px 4px;
+      -moz-box-shadow: rgba(0,0,0,0.2) 0px 1px 4px;
+      -webkit-box-shadow: rgba(0,0,0,0.2) 0px 1px 4px;
+    }
+  }
