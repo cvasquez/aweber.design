@@ -1,0 +1,5 @@
+#tweet-01 .thumbnail { background: url('https://pbs.twimg.com/profile_images/572898802885869568/vsETcXfG_400x400.jpeg'); }
+#tweet-01 .tweet-name::before { content: "Weird Horse"; }
+#tweet-01 .tweet-handle::before { content: "@WeirdHorse"; }
+#tweet-01 .tweet-date::before { content: "10/8"; }
+#tweet-01 .tweet-message::before { content: "Just saw a wasp on Tinder and tried to swipe right but it was a real wasp on my screen and I killed it and it stung my hoof. I'm lonely."; }
