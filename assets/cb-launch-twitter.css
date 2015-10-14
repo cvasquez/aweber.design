@@ -1,8 +1,8 @@
-#tweet-01 .thumbnail { background: url('https://pbs.twimg.com/profile_images/619288978533957633/uC8w6vOz_bigger.png'); }
-#tweet-01 .tweet-name::before { content: "Ash Ambirge"; }
-#tweet-01 .tweet-handle::before { content: "@TMFproject"; }
-#tweet-01 .tweet-date::before { content: "10/8"; }
-#tweet-01 .tweet-message::before { content: "The way you think about email is about to change... http://bit.ly/1O51Nid  #DoMoreWithEmail @AWeber"; }
+#tweet-01 .thumbnail { background: url('https://pbs.twimg.com/profile_images/443371752630931457/F3K16x4W_bigger.jpeg'); }
+#tweet-01 .tweet-name::before { content: "David G. Johnson"; }
+#tweet-01 .tweet-handle::before { content: "@TheDavidJohnson"; }
+#tweet-01 .tweet-date::before { content: "10/14"; }
+#tweet-01 .tweet-message::before { content: "Our friends at Aweber http://mrk.tg/aweber  say we can soon #DoMoreWithEmail - perhaps the live Twitter feed in their message is a clue?"; }
 
 #tweet-02 .thumbnail { background: url('https://pbs.twimg.com/profile_images/563438136173539328/oUCb90zS_bigger.jpeg'); }
 #tweet-02 .tweet-name::before { content: "Lexi - Copywriter"; }
