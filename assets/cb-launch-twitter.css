@@ -1,23 +1,29 @@
-#tweet-01 .thumbnail { background: url('https://pbs.twimg.com/profile_images/443371752630931457/F3K16x4W_bigger.jpeg'); }
-#tweet-01 .tweet-name::before { content: "David G. Johnson"; }
-#tweet-01 .tweet-handle::before { content: "@TheDavidJohnson"; }
-#tweet-01 .tweet-date::before { content: "10/14"; }
-#tweet-01 .tweet-message::before { content: "Our friends at Aweber http://mrk.tg/aweber  say we can soon #DoMoreWithEmail - perhaps the live Twitter feed in their message is a clue?"; }
+#tweet-01 .thumbnail { background: url('https://pbs.twimg.com/profile_images/618574443779067904/IvdVFoPq_bigger.jpg'); }
+#tweet-01 .tweet-name::before { content: "Ali Rittenhouse"; }
+#tweet-01 .tweet-handle::before { content: "@AliRittenhouse"; }
+#tweet-01 .tweet-date::before { content: "10/15"; }
+#tweet-01 .tweet-message::before { content: "@aweber the suspense is killing me... As a 10 yr #AWesomeuser, I know this is going to be HUGE! #cantwait #DoMoreWithEmail"; }
 
-#tweet-02 .thumbnail { background: url('https://pbs.twimg.com/profile_images/575922971983765504/mWltOJpl_bigger.png'); }
-#tweet-02 .tweet-name::before { content: "Ash"; }
-#tweet-02 .tweet-handle::before { content: "@fetchprofits"; }
+#tweet-02 .thumbnail { background: url('https://pbs.twimg.com/profile_images/443371752630931457/F3K16x4W_bigger.jpeg'); }
+#tweet-02 .tweet-name::before { content: "David G. Johnson"; }
+#tweet-02 .tweet-handle::before { content: "@TheDavidJohnson"; }
 #tweet-02 .tweet-date::before { content: "10/14"; }
-#tweet-02 .tweet-message::before { content: "Wondering what's coming up with @aweber soon. It's killing me #DoMoreWithEmail"; }
+#tweet-02 .tweet-message::before { content: "Our friends at Aweber http://mrk.tg/aweber  say we can soon #DoMoreWithEmail - perhaps the live Twitter feed in their message is a clue?"; }
 
-#tweet-03 .thumbnail { background: url('https://pbs.twimg.com/profile_images/549122768352976896/9_LJEEDY_bigger.jpeg'); }
-#tweet-03 .tweet-name::before { content: "Jordie van Rijn"; }
-#tweet-03 .tweet-handle::before { content: "@jvanrijn"; }
-#tweet-03 .tweet-date::before { content: "9/30"; }
-#tweet-03 .tweet-message::before { content: "@aweber is going to do a \"big reveal\" in 19 days. What would that be? #DoMoreWithEmail"; }
+#tweet-03 .thumbnail { background: url('https://pbs.twimg.com/profile_images/575922971983765504/mWltOJpl_bigger.png'); }
+#tweet-03 .tweet-name::before { content: "Ash"; }
+#tweet-03 .tweet-handle::before { content: "@fetchprofits"; }
+#tweet-03 .tweet-date::before { content: "10/14"; }
+#tweet-03 .tweet-message::before { content: "Wondering what's coming up with @aweber soon. It's killing me #DoMoreWithEmail"; }
 
 #tweet-04 .thumbnail { background: url('https://pbs.twimg.com/profile_images/563438136173539328/oUCb90zS_bigger.jpeg'); }
 #tweet-04 .tweet-name::before { content: "Lexi - Copywriter"; }
 #tweet-04 .tweet-handle::before { content: "@lexirodrigo"; }
 #tweet-04 .tweet-date::before { content: "10/8"; }
 #tweet-04 .tweet-message::before { content: "Excited to find out what new platform @AWeber's unveiling! http://bit.ly/1O51Nid  #DoMoreWithEmail"; }
+
+#tweet-05 .thumbnail { background: url('https://pbs.twimg.com/profile_images/549122768352976896/9_LJEEDY_bigger.jpeg'); }
+#tweet-05 .tweet-name::before { content: "Jordie van Rijn"; }
+#tweet-05 .tweet-handle::before { content: "@jvanrijn"; }
+#tweet-05 .tweet-date::before { content: "9/30"; }
+#tweet-05 .tweet-message::before { content: "@aweber is going to do a \"big reveal\" in 19 days. What would that be? #DoMoreWithEmail"; }
